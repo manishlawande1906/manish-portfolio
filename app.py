@@ -1,7 +1,7 @@
 import streamlit as st
 
 # --- Main Page ---
-st.set_page_config(page_title="Manish Lavande | Portfolio", layout="wide")
+st.set_page_config(page_title="Manish Lawande | Portfolio", layout="wide")
 
 st.title("👋 Hi, I'm Manish Lavande")
 st.write("### Data Analyst | Data Engineer | Machine Learning Enthusiast")
@@ -37,7 +37,7 @@ st.write("Built an ETL pipeline using Azure Data Factory, Synapse, and Databrick
 # --- Contact Section ---
 st.header("Contact Me")
 st.write("""
-📧 Email: [your.email@example.com](mailto:your.email@example.com)  
-🔗 LinkedIn: [linkedin.com/in/manishlavande](https://linkedin.com/in/manishlavande)  
+📧 Email: [manishlawande@gmail.com](mailto:your.email@example.com)  
+🔗 LinkedIn: [linkedin.com/in/manishlavande](https://linkedin.com/in/manishlawande)  
 💻 GitHub: [github.com/manishlawande1906](https://github.com/manishlawande1906)
 """)
