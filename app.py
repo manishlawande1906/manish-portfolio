@@ -43,13 +43,13 @@ Dynamic filters for Model, Brand, Year, and Payment Method for flexible analysis
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image("images/Mobile sales Dashboard.png", caption="Mobile sales Dashboard", use_container_width=True)
+    st.image("images/mobile_sales_dashboard.png", caption="Mobile sales Dashboard", use_container_width=True)
 
 with col2:
-    st.image("images/Mobile sales MTD.png", caption="Sales MTD", use_container_width=True)
+    st.image("images/mobile_sales_mtd.png", caption="Sales MTD", use_container_width=True)
 
 with col3:
-    st.image("images/Mobile sales SPLY.png", caption="Same period Last year", use_container_width=True)
+    st.image("images/mobile_sales_sply.png", caption="Same period Last year", use_container_width=True)
 
 # --- Add link to the live Power BI report ---
 st.markdown("""
