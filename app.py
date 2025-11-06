@@ -3,7 +3,7 @@ import streamlit as st
 # --- Main Page ---
 st.set_page_config(page_title="Manish Lawande | Portfolio", layout="wide")
 
-st.title("👋 Hi, I'm Manish Lavande")
+st.title("👋 Hi, I'm Manish Lawande")
 st.write("### Data Analyst | Data Engineer | Machine Learning Enthusiast")
 st.write("Welcome to my portfolio! Here you can explore my projects, dashboards, and technical skills.")
 
