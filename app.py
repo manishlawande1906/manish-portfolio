@@ -23,8 +23,7 @@ st.write("""
 - **Areas:** Data Cleaning, Visualization, ETL, Machine Learning
 """)
 
-# --- Projects ---
-import streamlit as st
+# --- Projects --
 
 st.subheader("📊 Mobile Sales Performance Dashboard")
 
