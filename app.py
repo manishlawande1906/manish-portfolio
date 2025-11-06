@@ -48,7 +48,7 @@ with col2:
     st.image("mobile_sales_mtd.png", caption="Sales MTD", use_container_width=True)
 
 with col3:
-    st.image("images/mobile_sales_sply.png", caption="Same period Last year", use_container_width=True)
+    st.image("mobile_sales_sply.png", caption="Same period Last year", use_container_width=True)
 
 # --- Add link to the live Power BI report ---
 st.markdown("""
