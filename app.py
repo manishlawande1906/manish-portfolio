@@ -24,9 +24,41 @@ st.write("""
 """)
 
 # --- Projects ---
-st.header("Projects")
-st.write("### 🧮 Loan Approval Prediction App")
-st.write("A machine learning model built using Streamlit and deployed on Streamlit Cloud.")
+import streamlit as st
+
+st.subheader("📊 Mobile Sales Performance Dashboard")
+
+st.markdown("""
+### 📝 Project Overview  
+An interactive Power BI dashboard designed to analyze mobile sales across India.
+It provides a complete view of sales performance using key KPIs such as Total Sales, Quantity, Average Price, and Transactions. The report includes:
+
+Year-over-Year (YoY) and Month-to-Date (MTD) sales comparisons.
+City-wise and Brand-wise performance visualization.
+Insights on Payment Methods, Ratings, and customer feedback trends.
+Dynamic filters for Model, Brand, Year, and Payment Method for flexible analysis.  
+""")
+
+# --- Display 3 dashboard screenshots ---
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.image("images/Mobile sales Dashboard.png", caption="Mobile sales Dashboard", use_container_width=True)
+
+with col2:
+    st.image("images/Mobile sales MTD.png", caption="Sales MTD", use_container_width=True)
+
+with col3:
+    st.image("images/Mobile sales SPLY.png", caption="Same period Last year", use_container_width=True)
+
+# --- Add link to the live Power BI report ---
+st.markdown("""
+### 🔗 View Interactive Dashboard  
+👉 [Click here to view the live Power BI report](https://app.powerbi.com/view?r=YOUR_REPORT_LINK_HERE)  
+
+**Tools Used:** Power BI, DAX, Data Modeling, and Power Query 
+""")
+
 
 st.write("### 📊 Power BI Sales Dashboard")
 st.write("Interactive visualization showing regional performance and KPIs.")
