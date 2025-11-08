@@ -28,7 +28,7 @@ st.write("""
 st.subheader("📊 Mobile Sales Performance Dashboard")
 
 st.markdown("""
-### 📝 Project Overview  
+#### 📝 Project Overview  
 An interactive Power BI dashboard designed to analyze mobile sales across India.
 It provides a complete view of sales performance using key KPIs such as Total Sales, Quantity, Average Price, and Transactions. The report includes:
 
@@ -52,15 +52,45 @@ with col3:
 
 # --- Add link to the live Power BI report ---
 st.markdown("""
-### 🔗 View Interactive Dashboard  
+###### 🔗 View Mobile sales performace Dashboard  
 👉 [Click here to view the live Power BI report](https://github.com/manishlawande1906/Mobile-Sales-performance-Analysis---Power-BI-Report/blob/main/Mobile%20sales%20data.pbix)  
 
 **Tools Used:** Power BI, DAX, Data Modeling, and Power Query 
 """)
 
 
-st.write("### 📊 Power BI Sales Dashboard")
-st.write("Interactive visualization showing regional performance and KPIs.")
+st.subheader("📊 Road Accident Analysis Dashboard")
+
+st.markdown("""
+#### 📝 Project Overview  
+This interactive Power BI dashboard provides a detailed analysis of road accident trends across the United Kingdom. It highlights critical KPIs such as total casualties, accident types, severity levels, and contributing factors like light conditions and road surfaces. The report includes:
+
+📊 Key Insights:
+
+Total 196K casualties reported, showing an 11.9% decline YoY.
+
+Majority of accidents occurred on single carriageways and during daytime hours.
+
+Urban areas (62%) account for most of the casualties.
+
+Visual comparison between current and previous year (CY vs PY) trends to track safety improvements.
+
+Dynamic filters allow users to explore data by road surface and weather conditions.
+
+# --- Display 1 dashboard screenshots ---
+col1 = st.columns(1)
+
+with col1:
+    st.image("road_accident_analysis.png", caption="Road Accident Analysis", use_container_width=True)
+
+# --- Add link to the live Power BI report ---
+st.markdown("""
+###### 🔗 View Road Accident Analysis Dashboard  
+👉 [Click here to view the live Power BI report](https://github.com/manishlawande1906/Road-Accident-Data/blob/main/Road%20Accident%20Analysis.pbix)  
+
+**Tools Used:** Power BI, DAX, Data Modeling, and Power Query 
+""")
+
 
 st.write("### ⚙️ Data Engineering Pipeline")
 st.write("Built an ETL pipeline using Azure Data Factory, Synapse, and Databricks.")
