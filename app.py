@@ -87,7 +87,7 @@ with col1:
 
 st.markdown("""
 ###### 🔗 View Mobile sales performace Dashboard  
-👉 [Click here to view the live Power BI report](https://github.com/manishlawande1906/Road-Accident-Data/blob/main/Road%20Accident%20Analysis.pbix)  
+[Click here to view the live Power BI report](https://github.com/manishlawande1906/Road-Accident-Data/blob/main/Road%20Accident%20Analysis.pbix)  
 
 **Tools Used:** Power BI, DAX, Data Modeling, and Power Query 
 """)
