@@ -53,7 +53,7 @@ with col3:
 # --- Add link to the live Power BI report ---
 st.markdown("""
 ### 🔗 View Interactive Dashboard  
-👉 [Click here to view the live Power BI report](https://app.powerbi.com/view?r=YOUR_REPORT_LINK_HERE)  
+👉 [Click here to view the live Power BI report](https://github.com/manishlawande1906/Mobile-Sales-performance-Analysis---Power-BI-Report/blob/main/Mobile%20sales%20data.pbix)  
 
 **Tools Used:** Power BI, DAX, Data Modeling, and Power Query 
 """)
