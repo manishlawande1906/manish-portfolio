@@ -151,6 +151,56 @@ st.markdown("""
 """)
 
 # ================================================================
+# PROJECT 4 - Zomato Analysis Dashboard
+# ================================================================
+st.subheader("🍽️ Project 5: Zomato Analysis Dashboard")
+
+st.markdown("""
+#### 📝 Project Overview  
+An interactive **Power BI dashboard** designed to analyze Zomato’s business performance across multiple cities.  
+It provides insights into **customer behavior, city-wise orders, user activity, and food category trends**.
+
+**Key Insights:**
+- Over **987M total sales** and **150K+ orders** analyzed across major cities  
+- **Bikaner, Noida, and Indirapuram** are top-performing cities by users and ratings  
+- Tracks **gain and loss of customers** with demographic and age analysis  
+- Identifies **most popular food categories** (Veg, Non-Veg, and Others)  
+- Year-over-Year sales trend shows major growth in **2018 and 2019**  
+""")
+
+# --- Display 4 dashboard screenshots (2x2 layout) ---
+col1, col2 = st.columns(2)
+with col1:
+    st.image("zomato_dashboard.png", caption="Zomato Dashboard Overview", use_container_width=True)
+with col2:
+    st.image("zomato_city_performace.png", caption="City Performance Analysis", use_container_width=True)
+
+col3, col4 = st.columns(2)
+with col3:
+    st.image("zomato_user_performance.png", caption="User Performance Analysis", use_container_width=True)
+with col4:
+    st.image("zomato_overview.png", caption="Sales & Category Overview", use_container_width=True)
+
+# --- Stylish Google Drive link section ---
+st.markdown(
+    """
+    <div style="text-align: center; padding: 15px; border-radius: 10px; background-color: #f7f9fc; border: 1px solid #dfe3e6; margin-top: 20px;">
+        <h5 style="color:#000000;">🔗 View All Power BI Dashboards</h5>
+        <a href="https://drive.google.com/drive/folders/1bCooRfSH-S38AqIh3e0ONRuWkrJavqJY" target="_blank" style="text-decoration:none;">
+            <button style="background-color:#FF4B4B; color:white; padding:10px 20px; border:none; border-radius:8px; font-weight:bold; cursor:pointer;">
+                📊 Open Power BI Projects Folder
+            </button>
+        </a>
+        <p style="color:#5a5a5a; margin-top:10px;">Tools Used: Power BI, DAX, Power Query, Data Modeling, and Visualization</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+
+# ================================================================
 # DATA ENGINEERING PIPELINE
 # ================================================================
 st.header("⚙️ Data Engineering Pipeline")
