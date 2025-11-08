@@ -87,7 +87,7 @@ st.markdown("""
 """)
 
 # --- PROJECT 2: Road Accident Analysis Dashboard ---
-st.subheader("🎧 Spotify Listening Analysis Dashboard")
+st.subheader("🎧 Project 3: Spotify Listening Analysis Dashboard")
 
 st.markdown("""
 #### 📝 Project Overview  
@@ -123,6 +123,52 @@ st.markdown("""
 
 **Tools Used:** Power BI, DAX, Power Query, Data Modeling, and Data Visualization
 """)
+
+# --- Uber Trip Analysis Dashboard ---
+st.subheader("🚖 Project 4: Uber Trip Analysis Dashboard")
+
+st.markdown("""
+#### 📝 Project Overview  
+This Power BI dashboard provides a comprehensive analysis of **Uber trip data** for June 2024.  
+It helps understand key business metrics, trip behavior, and customer payment trends across different locations.
+
+📊 **Key Insights:**
+- **103.7K total bookings** with a combined **booking value of $1.6M**.  
+- The **average trip fare** is **$15**, with a **total distance of 349K miles** traveled.  
+- **UberX and UberXL** are the most popular ride types by total bookings and revenue.  
+- Customers prefer **Uber Pay (67%)** followed by **Cash (32%)**.  
+- **Saturday and Sunday** show the highest demand for trips.  
+- Peak booking hours are **between 6 AM – 9 AM** and **5 PM – 9 PM**.  
+- The **longest recorded trip** was from *Lower East Side → Crown Heights North (144 miles)*.  
+
+""")
+
+# --- Display 3 dashboard screenshots ---
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.image("uber_analysis_overview.png", caption="Uber Trip Overview Dashboard", use_container_width=True)
+
+with col2:
+    st.image("uber_time_analysis.png", caption="Trip Time Analysis", use_container_width=True)
+
+with col3:
+    st.image("uber_details.png", caption="Detailed Trip Data", use_container_width=True)
+
+# --- Stylish Link Section ---
+st.markdown(
+    """
+    <div style="text-align: center; padding: 15px; border-radius: 10px; background-color: #f7f9fc; border: 1px solid #dfe3e6; margin-top: 20px;">
+        <h5 style="color:#000000;">🔗 View Uber Trip Analysis Dashboard</h5>
+        <a href="https://github.com/manishlawande1906/Uber-Trip-Analysis---Power-BI-Dashboard/blob/main/Uber%20Trip%20Analysis.pbix" target="_blank" style="text-decoration:none; color:#0078D7; font-weight:bold;">
+            👉 Click here to view the live Power BI report
+        </a>
+        <p style="color:#5a5a5a; margin-top:8px;">Tools Used: Power BI, DAX, Power Query, Data Modeling, and Data Visualization</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
 
 # --- Data Engineering Pipeline Section ---
