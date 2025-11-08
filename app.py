@@ -86,6 +86,45 @@ st.markdown("""
 **Tools Used:** Power BI, DAX, Data Modeling, Power Query  
 """)
 
+# --- PROJECT 2: Road Accident Analysis Dashboard ---
+st.subheader("🎧 Spotify Listening Analysis Dashboard")
+
+st.markdown("""
+#### 📝 Project Overview  
+This interactive Power BI dashboard explores Spotify listening patterns using streaming data.  
+It provides insights into **user engagement, platform usage, and listening behavior** across multiple years.
+
+📊 **Key Insights:**
+- Total of **7,905 albums**, **4,112 artists**, and **13,665 tracks** analyzed.  
+- Users spent **over 19 billion milliseconds** listening — with an **average listening time of 2.14 minutes** per track.  
+- The dashboard identifies **top artists, albums, and tracks** across different platforms like Android, iOS, and Desktop.  
+- Heatmaps highlight the **most active listening hours** (evenings and weekends).  
+- Scatter plots analyze **track frequency vs. average listening time** to find user preferences.  
+- Year-over-Year trends show **steady growth** in album and artist engagement.
+
+""")
+
+# --- Display 3 dashboard screenshots ---
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.image("spotify_dashboard.png", caption="Spotify Overview Dashboard", use_container_width=True)
+
+with col2:
+    st.image("spotify_listening_pattern.png", caption="Listening Patterns Analysis", use_container_width=True)
+
+with col3:
+    st.image("spotify_details.png", caption="Detailed Artist and Album Insights", use_container_width=True)
+
+# --- Add link to Power BI report ---
+st.markdown("""
+###### 🔗 View Spotify Listening Analysis Dashboard  
+[Click here to view the live Power BI report](https://github.com/manishlawande1906/Spotify-Listening-Analysis/blob/main/Spotify%20Listening%20Analysis.pbix)
+
+**Tools Used:** Power BI, DAX, Power Query, Data Modeling, and Data Visualization
+""")
+
+
 # --- Data Engineering Pipeline Section ---
 st.header("⚙️ Data Engineering Pipeline")
 st.write("""
