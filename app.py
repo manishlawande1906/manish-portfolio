@@ -151,7 +151,7 @@ st.markdown("""
 """)
 
 # ================================================================
-# PROJECT 4 - Zomato Analysis Dashboard
+# PROJECT 5 - Zomato Analysis Dashboard
 # ================================================================
 st.subheader("🍽️ Project 5: Zomato Analysis Dashboard")
 
@@ -182,20 +182,13 @@ with col4:
     st.image("zomato_city_performace.png", caption="City Performance Analysis", use_container_width=True)
 
 # --- Stylish Google Drive link section ---
-st.markdown(
-    """
-    <div style="text-align: center; padding: 15px; border-radius: 10px; background-color: #f7f9fc; border: 1px solid #dfe3e6; margin-top: 20px;">
-        <h5 style="color:#000000;">🔗 View All Power BI Dashboards</h5>
-        <a href="https://drive.google.com/drive/folders/1bCooRfSH-S38AqIh3e0ONRuWkrJavqJY" target="_blank" style="text-decoration:none;">
-            <button style="background-color:#FF4B4B; color:white; padding:10px 20px; border:none; border-radius:8px; font-weight:bold; cursor:pointer;">
-                📊 Open Power BI Projects Folder
-            </button>
-        </a>
-        <p style="color:#5a5a5a; margin-top:10px;">Tools Used: Power BI, DAX, Power Query, Data Modeling, and Visualization</p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+st.markdown("""
+###### 🔗 View Zomato Analysis Dashboard  
+[Click here to view the Power BI report](https://drive.google.com/drive/folders/1bCooRfSH-S38AqIh3e0ONRuWkrJavqJY)
+
+**Tools Used:** Power BI, DAX, Power Query, Data Modeling
+""")
+
 
 
 
