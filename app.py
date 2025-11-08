@@ -119,7 +119,7 @@ with col3:
 # --- Add link to Power BI report ---
 st.markdown("""
 ###### 🔗 View Spotify Listening Analysis Dashboard  
-[Click here to view the live Power BI report](https://github.com/manishlawande1906/Spotify-Listening-Analysis/blob/main/Spotify%20Listening%20Analysis.pbix)
+[Click here to view the live Power BI report](https://github.com/manishlawande1906/Spotify-Listening-Analysis---Power-Bi-dashboard/blob/main/Spotify%20Dashboard_Manish.pbix
 
 **Tools Used:** Power BI, DAX, Power Query, Data Modeling, and Data Visualization
 """)
