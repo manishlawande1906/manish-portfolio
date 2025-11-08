@@ -77,24 +77,20 @@ Visual comparison between current and previous year (CY vs PY) trends to track s
 
 Dynamic filters allow users to explore data by road surface and weather conditions.
 
-# --- Display 1 dashboard screenshots ---
-col1 = st.columns(1)
+# --- Display 1 dashboard screenshot ---
+col1 = st.columns(1)[0]  # Correct way to get a single column
 
 with col1:
     st.image("road_accident_analysis.png", caption="Road Accident Analysis", use_container_width=True)
 
 # --- Add link to the live Power BI report ---
-
 st.markdown("""
-###### 🔗 View Mobile Sales Performance Dashboard
+###### 🔗 View Road Accident Analysis Dashboard  
+👉 [Click here to view the live Power BI report](https://github.com/manishlawande1906/Road-Accident-Data/raw/main/Road%20Accident%20Analysis.pbix)
 
-[Click here to view the live Power BI report](https://github.com/manishlawande1906/Road-Accident-Data/raw/main/Road%20Accident%20Analysis.pbix)
+**Tools Used:** Power BI, DAX, Data Modeling, and Power Query
 """)
 
-
-
-**Tools Used:** Power BI, DAX, Data Modeling, and Power Query 
-""")
 
 
 st.write("### ⚙️ Data Engineering Pipeline")
